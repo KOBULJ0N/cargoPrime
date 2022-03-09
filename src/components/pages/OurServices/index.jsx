@@ -64,7 +64,7 @@ export const Ourservices = () => {
       </Main>
 
       <Main.Anchor>
-        <Anchor />
+        <Anchor href='#block4' />
       </Main.Anchor>
     </>
   );

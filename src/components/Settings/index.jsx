@@ -20,6 +20,7 @@ import {
 } from './style';
 
 import CountUp from 'react-countup';
+import Anchor from '../Generic';
 
 const Settings = () => {
   return (
@@ -66,7 +67,7 @@ const Settings = () => {
       </Main>
 
       <Down.Wrap to='/map'>
-        <Down />
+        <Anchor href='#block6' />
       </Down.Wrap>
 
       <Partner>

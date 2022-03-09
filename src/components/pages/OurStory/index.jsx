@@ -35,7 +35,7 @@ export const OurStory = () => {
         </Container.Grid>
       </Container>
 
-      <Anchor />
+      <Anchor href='#block3' />
       <Container.Margin />
     </>
   );

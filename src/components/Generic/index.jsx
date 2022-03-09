@@ -1,9 +1,9 @@
 import React from 'react';
 import { AnchorContainer, Scroll } from './style';
 
-export const Anchor = () => {
+export const Anchor = ({href}) => {
   return (
-    <AnchorContainer href='#'>
+    <AnchorContainer href={href}>
       <Scroll />
     </AnchorContainer>
   );

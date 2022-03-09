@@ -22,9 +22,7 @@ export const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-image: url(${group});
-  background-size: 100% 100%;
-  height: 850px;
+  height: 1850px;
   margin-top: 30px;
 `;
 
@@ -112,6 +110,7 @@ Partner.Title = styled.div`
   font-size: 30px;
   line-height: 45px;
   color: #808080;
+  margin-bottom: 60px;
 `;
 
 export const Amazon = styled(amazon)``;
@@ -155,11 +154,12 @@ AboutUs.Title = styled.div`
   margin-bottom: 37px;
 `;
 
-
 export const Main = styled.div`
-	width: 100%;
-	display: grid;
-	grid-template-columns: 10% 0.94fr;
-	padding-right: 150px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10% 0.94fr;
+  padding-right: 150px;
   align-items: center;
+  background-image: url(${group});
+  background-size: 100% 100%;
 `;

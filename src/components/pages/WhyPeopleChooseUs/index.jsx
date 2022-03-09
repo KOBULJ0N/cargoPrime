@@ -56,7 +56,7 @@ export const WhyPeopleChooseUs = () => {
         </Right>
       </Block>
       <Main.Anchor>
-        <Anchor />
+        <Anchor href='#block5' />
       </Main.Anchor>
     </Main>
   );

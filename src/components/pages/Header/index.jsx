@@ -24,7 +24,7 @@ export const Header = () => {
           </Flex>
         </Wrapper>
       </Container>
-      <Anchor />
+      <Anchor href='#block2'/>
     </>
   );
 };

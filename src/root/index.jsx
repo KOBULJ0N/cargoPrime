@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
+import Footer from '../components/pages/Footer';
 import Header from '../components/pages/Header';
+import Map from '../components/pages/Map';
 import Ourservices from '../components/pages/OurServices';
 import OurStory from '../components/pages/OurStory';
 import WhyPeopleChooseUs from '../components/pages/WhyPeopleChooseUs';
@@ -28,6 +30,8 @@ export const Root = () => {
       <Ourservices />
       <WhyPeopleChooseUs />
       <Settings />
+      {/* <Map/> */}
+      <Footer />
     </Block.Main>
   );
 };
