@@ -1,6 +1,5 @@
 import React from 'react';
 import Anchor from '../../Generic';
-import Kategory from '../../Kategory/index';
 import { Flex } from '../../Navbar/style';
 import { Container, Title, Text, Button, Wrapper } from './style';
 
@@ -8,7 +7,6 @@ export const Header = () => {
   return (
     <>
       <Container id='block1'>
-        <Kategory />
         <Wrapper>
           <Title>
             Cargo <span>Prime</span>

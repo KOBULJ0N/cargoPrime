@@ -5,7 +5,8 @@ import Ourservices from '../components/pages/OurServices';
 import OurStory from '../components/pages/OurStory';
 import WhyPeopleChooseUs from '../components/pages/WhyPeopleChooseUs';
 import Settings from '../components/Settings';
-import Block from './style'
+import Sidebar from '../components/Sidebar';
+import Block from './style';
 
 export const Root = () => {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ export const Root = () => {
 
   return (
     <Block.Main>
+      <Sidebar />
       <Block>
         <Navbar />
       </Block>

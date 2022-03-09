@@ -19,16 +19,13 @@ import {
   Main,
 } from './style';
 
-import Kategory from '../Kategory/index';
 import CountUp from 'react-countup';
-
 
 const Settings = () => {
   return (
-
     <Container id='block5'>
       <Main>
-        <Kategory />
+        <div />
         <Card.WrapperMain>
           <Card.Wrapper>
             <Card>
@@ -64,16 +61,13 @@ const Settings = () => {
               <Employee />
               <Card.Text>EMPLOYEES</Card.Text>
             </Card>
-            </Card.Wrapper>
-
+          </Card.Wrapper>
         </Card.WrapperMain>
-
       </Main>
 
       <Down.Wrap to='/map'>
         <Down />
       </Down.Wrap>
-
 
       <Partner>
         <Partner.Title>PARTNERS WHO WORKS WITH US</Partner.Title>
@@ -110,7 +104,6 @@ const Settings = () => {
       </Partner>
       <AboutUs>
         <AboutUs.Title>WHAT PEOPLE THINK ABOUT US</AboutUs.Title>
-
       </AboutUs>
     </Container>
   );

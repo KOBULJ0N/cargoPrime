@@ -2,35 +2,31 @@ import styled from 'styled-components';
 import group from '../../../assets/images/background.png';
 
 export const Container = styled.div`
-	height: 1049px;
-	/* padding-left: 250px; */
-	background-image: url(${group});
-	background-size: 100% 100%;
-	width: 100%;
-	margin-top: 62px;
-	display: grid;
-	grid-template-columns: 10% 0.94fr;
-	padding-right: 150px;
+  height: 1049px;
+  /* padding-left: 250px; */
+  background-image: url(${group});
+  background-size: 100% 100%;
+  width: 100%;
+  margin-top: 62px;
+  display: grid;
+  grid-template-columns: 10% 0.94fr;
+  padding-right: 150px;
 `;
 
-
-export const Wrapper = styled.div` 
-
-
-`
+export const Wrapper = styled.div`
+  padding-left: 11vw;
+`;
 export const Title = styled.div`
   text-transform: uppercase;
   text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.2);
   font-size: 160px;
   color: red;
-  width: 777px;
+  /* width: 777px; */
   line-height: 180px;
   span {
     color: #47abd8;
   }
 `;
-
-
 
 export const Text = styled.div`
   font-family: Poppins;
