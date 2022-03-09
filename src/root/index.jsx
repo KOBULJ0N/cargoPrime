@@ -30,7 +30,7 @@ export const Root = () => {
       <Ourservices />
       <WhyPeopleChooseUs />
       <Settings />
-      {/* <Map/> */}
+      {/* <Map /> */}
       <Footer />
     </Block.Main>
   );

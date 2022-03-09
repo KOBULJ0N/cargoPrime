@@ -8,9 +8,9 @@ import {
   Textarea,
   Title,
 } from './style';
-// import { GoogleMap, withScriptjs, withGoogleMap } from "react-google-maps";
+// import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps';
 
-const Map = () => {
+const MapForm = () => {
   const apiKey = 'AIzaSyC17GeRPQ0k7veGOvlta9Ts7fcy-vL-_BQ';
   //REACT_APP_xxx_key >> access with ${process.env.REACT_APP_xxx_KEY}
 

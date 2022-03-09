@@ -22,7 +22,19 @@ import {
 import CountUp from 'react-countup';
 import Anchor from '../Generic';
 
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+// import CarouselItem from '../../components/Generic/CarouselItem';
+
 const Settings = () => {
+  const handleDragStart = (e) => e.preventDefault();
+
+  const items = [
+    <img src='path-to-img' onDragStart={handleDragStart} />,
+    <img src='path-to-img' onDragStart={handleDragStart} />,
+    <img src='path-to-img' onDragStart={handleDragStart} />,
+  ];
+
   return (
     <Container id='block5'>
       <Main>
@@ -105,6 +117,7 @@ const Settings = () => {
       </Partner>
       <AboutUs>
         <AboutUs.Title>WHAT PEOPLE THINK ABOUT US</AboutUs.Title>
+        <AliceCarousel mouseTracking items={items} />
       </AboutUs>
     </Container>
   );
